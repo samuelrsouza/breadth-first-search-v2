@@ -78,7 +78,6 @@ def bfs(startingNode, destinationNode, path=None):
         g = parent[g]
 
     path.reverse()
-    # printing the path to our destination city
     print(path)
 
 

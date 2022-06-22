@@ -80,8 +80,6 @@ def bfs(startingNode, destinationNode, path=None):
     path.reverse()
     print(path)
 
-
-# Starting City & Destination City
 def main():
     print('Digite a origem :', end=' ')
     startingNode = input().strip()
